@@ -44,8 +44,8 @@ db:
   ## MariaDB username and password
   ## ref: https://github.com/bitnami/bitnami-docker-mariadb#creating-a-database-user-on-first-run
   ##
-  user:
-  password:
+  user: root
+  password: redhat
   ## Password is ignored if existingSecret is specified.
   ## Database to create
   ## ref: https://github.com/bitnami/bitnami-docker-mariadb#creating-a-database-on-first-run
